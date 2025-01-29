@@ -1,0 +1,99 @@
+/* style.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F1F1F1;
+    color: #333333;
+}
+
+/* Header Styles */
+h1 {
+    background-color: #00A859;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+    font-size: 2em;
+}
+
+h2 {
+    color: #00A859;
+    margin-top: 20px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #006600;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.navbar a:hover {
+    background-color: #00A859;
+}
+
+/* Plot Styles */
+.plot-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.plot-container img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #006600;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styles */
+.table-container {
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table-container th, .table-container td {
+    border: 1px solid #006600;
+    padding: 10px;
+    text-align: center;
+}
+
+.table-container th {
+    background-color: #00A859;
+    color: #FFFFFF;
+}
+
+.table-container td {
+    background-color: #F1F1F1;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #006600;
+    color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

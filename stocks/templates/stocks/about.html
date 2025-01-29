@@ -1,0 +1,23 @@
+{% extends 'stocks/base.html' %}
+{% block content %}
+<h1>About Stock Predictor</h1>
+<p>This Stock Predictor is an advanced tool crafted to analyze and visualize stock market trends, with a specific focus on Safaricom (SCOM) stock. This project was developed as an academic initiative aimed at exploring financial market analysis and visualization techniques.</p>
+<h2>Features</h2>
+<ul>
+    <li>Visualization of historical stock data</li>
+    <li>Computation of moving averages (100-day and 200-day)</li>
+    <li>Statistical evaluation of stock performance</li>
+    <li>Interactive charts for enhanced trend analysis</li>
+</ul>
+<h2>Technology Stack</h2>
+<ul>
+    <li>Python: The primary programming language used for backend processing and data analysis</li>
+    <li>Django: A robust Python framework for efficient web development</li>
+    <li>Pandas: A powerful library for data analysis and manipulation</li>
+    <li>Matplotlib: A versatile visualization library for generating static, animated, and interactive plots</li>
+    <li>HTML/CSS: Utilized for page structure and styling</li>
+</ul>
+<h2>Developer</h2>
+<p>Leah Sigana developed this project as part of a personal academic pursuit. It demonstrates practical applications of data analysis and web development in stock market forecasting.</p>
+<p>For more information or to report any issues, please visit our <a href="{% url 'contact' %}">Contact page</a>.</p>
+{% endblock %}

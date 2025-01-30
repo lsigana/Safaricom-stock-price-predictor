@@ -26,7 +26,11 @@ SECRET_KEY = 'django-insecure-6r&7diu3ztqyxiu@_wt0)a2(*vi0-7@(6s=c5-l#$tw&-m&#(!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "safaricom-stock-price-predictor.onrender.com",  # Your Render domain
+    "localhost",  # Allow local development
+    "127.0.0.1",
+]
 
 
 # Application definition

@@ -1,2 +1,2 @@
-gunicorn Safaricom-stock-price-predictor.wsgi:application
+gunicorn stock_predictor.wsgi:application
 

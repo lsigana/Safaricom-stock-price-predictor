@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-6r&7diu3ztqyxiu@_wt0)a2(*vi0-7@(6s=c5-l#$tw&-m&#(!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     "safaricom-stock-price-predictor.onrender.com",  # Your Render domain
